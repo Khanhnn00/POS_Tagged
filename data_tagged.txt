@@ -1,4 +1,4 @@
-I/PRP was/VBD rejected/VBN from/CC 10/LS unpaid/JJ internships/NNS
+I/PRP was/VBD rejected/VBN from/CC 10/CD unpaid/JJ internships/NNS
 I/PRP applied/VBD for/CC an/DT engineering/JJ job/NN at/IN Yahoo/NNP and/CC didn’t/MD get/VB it/NN
 Now/RB I/PRP am/VBP senior/JJ engineer/NN at/IN Twitter/NNP
 I/PRP had/VBD an/DT interview/NN with/IN Scribd/NNP ,/, who/WP I/PRP really/RB liked/VBD at/IN the/DT time/NN
@@ -6,20 +6,16 @@ you/PRP can’t/MD invert/VB a/DT binary/JJ tree/NN on/IN a/DT whiteboard/NN
 I/PRP interviewed/VBD at/IN Mozilla/NNP in/IN 2008/NN
 because/CC I/PRP didn't/MD have/VB an/DT undergraduate/JJ degree/NN
 When/WRB I/PRP graduated/VBD from/CC a/DT less/JJR than/IN desirable/JJ college/NN ,/, no/DT employers/NNS in/IN New/NNP York/NNP would/MD take/VB me/NN seriously/RB
-In/IN graduate/JJ school/NN, received/VBD full-time/JJ offers/NNS from/CC both/PDT Yahoo/NNP and/CC Google/NNP
+In/IN graduate/JJ school/NN ,/, received/VBD full-time/JJ offers/NNS from/CC both/PDT Yahoo/NNP and/CC Google/NNP
 Interviewed/VBN and/CC rejected/VBN by/PDT two/CD local/JJ startups/NNS in/IN medical/JJ and/CC educational/JJ spaces/NNS
-For/CC frontend/JJ developer/NN jobs/NNS, I/PRP am/VBP usually/RB told/VBN I/PRP don't/MD have/VB enough/JJ design/NN skills/NNS
-I/PRP wanted/VBD to/TO be/VB a/DT professional/JJ football/NN player/NN but/CC the/DT New/NN York/NN Jets/NN didn't/MD want/VB me/NN because/CC I/PRP couldn't/MD run/VB a/DT sub-4.3/JJ second/NN 40//JJ yard/NN dash/NN
+For/CC frontend/JJ developer/NN jobs/NNS ,/, I/PRP am/VBP usually/RB told/VBN I/PRP don't/MD have/VB enough/JJ design/NN skills/NNS
+I/PRP wanted/VBD to/TO be/VB a/DT professional/JJ football/NN player/NN but/CC the/DT New/NN York/NN Jets/NN didn't/MD want/VB me/NN because/CC I/PRP couldn't/MD run/VB a/DT sub-4.3/JJ second/NN 40/JJ yard/NN dash/NN
 Never/RB let/VB anyone/NN tell/VB you/PRP that/WDT you/PRP are/VBP not/RB worthy/JJ
-
-
 They/PRP asked/VBD me/NN a/DT question/NN that/WDT took/VBD me/NN a/DT bit/NN of/IN time/NN to/TO answer/NN ,/, and/CC the/DT interviewer/NN cut/VB me/NN off/RP in/IN the/DT middle/NN
 I/PRP was/VBD rejected/VBD from/CC countless/JJ internships/NNS and/CC junior/JJ positions/NNS at/IN agencies/NNS
 One/CD month/NN later/RB ,/, I/PRP got/VBD an/DT offer/NN from/CC Slack/NN
 Set/VB up/RP an/DT organization/NN to/TO improve/VB the/DT way/NN your/PRP$ team/NN works/VBZ together/NN
-The feed shows you events from people you follow and repositories you watch
+The/DT feed/NN shows/VBZ you/PRP events/NNS from/IN people/NNS you/PRP follow/VB and/CC repositories/NNS you/PRP watch/VB
 Accommodation/NN letters/NN are/VBP issued/VBN for/CC the/DT entire/RB academic/JJ year/NN
 Voting/VBG is/VBZ a/DT general/JJ technique/NN where/WRB we/PRP let/VB the/DT features/NNS vote/VB for/CC all/PDT models/NNS that/WDT are/VBP compatible/JJ with/IN it/NN
-RANSAC/NNP divides/VBZ data/NN into/IN inliers/NNS and/CC outliers//NS and/CC yields/VBZ estimate/JJ computed/VBN from/CC minimal/JJ set/NN of/IN inliers/NNS
-
-
+RANSAC/NNP divides/VBZ data/NN into/IN inliers/NNS and/CC outliers/NS and/CC yields/VBZ estimate/JJ computed/VBN from/CC minimal/JJ set/NN of/IN inliers/NNS

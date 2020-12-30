@@ -20,5 +20,3 @@ Accommodation letters are issued for the entire academic year
 Voting is a general technique where we let the features vote for all models that are compatible with it
 RANSAC divides data into inliers and outliers and
 yields estimate computed from minimal set of inliers
-
-
