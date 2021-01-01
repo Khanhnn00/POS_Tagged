@@ -1,5 +1,9 @@
-
 import os
+import nltk
+# nltk.download()
+from nltk.corpus import treebank
+from nltk.probability import LaplaceProbDist
+from nltk.tag.hmm import HiddenMarkovModelTrainer
 
 global words_count
 global tags_count
@@ -11,6 +15,14 @@ global word_tag
 global START_STATE
 global words
 
+global TRAIN 
+global INPUT
+global OUTPUT
+
+TRAIN  = './data_tagged.txt'
+INPUT = './input.txt'
+OUTPUT = './result.txt'
+
 word_tag = {}
 words_count = {}
 words = set()
@@ -21,6 +33,29 @@ prob = {}
 wt_prob = {}
 START_STATE = 'uwuowo'
 
+def prepareLib(train):
+    tagged = []
+    with open(train, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.lower()
+            words = line.split()
+            tmp = []
+            for word in words:
+                try:
+                    word1, word2 = word.split('/')
+                except ValueError:
+                    print(line)
+                tmp.append((word1, word2))
+            tagged.append(tmp)
+    f.close()
+    return tagged
+
+def writeOutput(result, file):
+    with open(file, 'a', encoding='utf-8') as f:
+        for string in result:
+            f.write(string)
+            f.write('\n')
+    f.close()
 
 def get_words(path):
     with open(path, 'r', encoding='utf-8') as f:
@@ -178,7 +213,7 @@ def viterbi(sentence, tags, prob, wt_prob, tag_count_emis, words):
                     current_prob[tag] = max_prob
                     locals()['dict{}'.format(i)][(previous_state, tag)] = max_prob
                     previous_tag = previous_state
-            print(max_prob)
+            # print(max_prob)
             if i == len(word_list) - 1:
                 max_path = ""
                 last_tag = max(current_prob, key=current_prob.get)
@@ -193,6 +228,22 @@ def viterbi(sentence, tags, prob, wt_prob, tag_count_emis, words):
                 result = max_path.split()
                 result.reverse()
                 return " ".join(result)
+
+def runWithLib():
+    tagged = prepareLib(TRAIN)
+    trainer = HiddenMarkovModelTrainer()
+    tagger = trainer.train_supervised(tagged, estimator=LaplaceProbDist)
+    result = []
+    with open('./input.txt', 'r', encoding='utf-8') as f:
+        for line in f:
+            pos = tagger.tag(line.split())
+            string = ""
+            for pair in pos:
+                string = string+pair[0] + '/' + pair[1] + " "
+            result.append(string)
+            # print('\n')
+    f.close()
+    writeOutput(result, OUTPUT)
             
 
 def main():
@@ -200,10 +251,6 @@ def main():
     # print(transition.items())
     prob = transitionSmoothing()
     wt_prob = calculateWordTagProbability()
-    # print(tags)
-    # print(prob)
-    # print('====================')
-    # print(wt_prob)
     tag_count_emis = {}
     for probb in wt_prob.items():
         key_tag = probb[0]
@@ -213,37 +260,20 @@ def main():
             tag_count_emis[val] += 1
         else:
             tag_count_emis[val] = 1
+    result = []
     with open('./input.txt', 'r', encoding='utf-8') as f:
         for line in f:
             path = viterbi(line, tags, prob, wt_prob, tag_count_emis, words)
-            print(path)
-    #         word = line.split()
-    #         tag = path.split()
-    #         string_out = ''
-    #         lib_str = ''
-    #         d = 0
-    #         l = 0
-    #         for j in range(0, len(word)):
-    #             if tag[j] == lib_pos[1][j] and lib_pos[1][j] != 'F': d += 1
-    #             if lib_pos[1][j] == 'F': l += 1
-    #             if j == len(word) - 1:
-    #                 lib_str += lib_pos[0][j] + "/" + lib_pos[1][j] + u'\n'
-    #                 string_out += word[j] + "/" + tag[j] + u'\n'
-    #                 fout.write(word[j] + "/" + tag[j] + u'\n')
-    #             else:
-    #                 lib_str += lib_pos[0][j] + "/" + lib_pos[1][j] + ' '
-    #                 string_out += word[j] + "/" + tag[j] + ' '
-    #                 fout.write(word[j] + "/" + tag[j] + " ")
-    # acc = round(d/(len(word) - l)*100)
+            tmp = line.split()
+            ptmp = path.split()
+            string = ""
+            for i in range(len(tmp)):
+                string += tmp[i] + '/' + ptmp[i] + ' '
+            result.append(string)
     f.close()
-    # print(prob)
-    # print(transition[('pdt', 'cd')])
-    # print('===============================')
-    # print(tags_count)
-    # print('===============================')
-    # print(tags)
-    # print('===============================')
-    # print(prob)
+    writeOutput(result, OUTPUT)
+    print('\n')
+    runWithLib()
         
 if __name__ == "__main__":
     main()
