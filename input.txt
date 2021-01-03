@@ -1,8 +1,17 @@
-the dog is going outside
-I was rejected from 10 unpaid internships
-I applied for an engineering job at Yahoo and didn’t get it
-Now I am senior engineer at Twitter
-I had an interview with Scribd, who I really liked at the time
-you can’t invert a binary tree on a whiteboard
-I interviewed at Mozilla in 2008
-because I didn't have an undergraduate degree
+Admission/NN requires/VBZ the/DT necessary/JJ high/JJ school/NN coursework/NN ,/, class/NN rank/NN in/IN top/NN 50%/CD of/IN graduating/JJ class/NN
+Many/DT advanced/JJ programs/NNS at/IN Nebraska/NNP are/VBP incredibly/RB difficult/JJ to/TO be/VBP accepted/VBD
+It/PRP is/VBZ not/DT hard/JJ to/TO get/VB into/IN UNL/NNP
+There/EX are/VBP plenty/NN of/IN people/NNS at/IN Facebook/NNP and/CC Google/NNP that/DT did/PDT not/DT go/VB to/TO a/DT top-tier/JJ university/NN
+Definitely/RB ,/, University/NN of/IN Utah/NNP has/VBZ a/DT better/JJR Computer/NN science/NN program/NN ./.
+Both/PDT institutions/NNS have/VB excellent/JJ programs/NNS ./.
+BYU/NNP still/RB manages/VBZ to/TO operate/VB a/DT professional/JJ and/CC reputable/JJ university/NN ./.
+You/PRP are/VBP often/RB judged/VBN quickly/RB and/CC harshly/RB in/IN this/PDT world/NN ,/, always/RB insure/VB that/DT you/PRP put/VB the/DT best/JJS possible/JJ words/NNS into/IN print/NN ./.
+I/PRP would/MD suggest/VB two/CD approaches/NNS ./.
+I/PRP enjoyed/VBD my/PRP$ time/NN there/EX
+If/IN you/PRP think/VB of/IN college/NN as/RB an/DT opportunity/NN for/CC drunken/JJ orgies/NNS ,/, you/PRP are/VBP going/VBG to/TO hate/VB BYU/NNP ./.
+When/WRB I/PRP graduated/VBD from/CC a/DT less/JJR than/IN desirable/JJ college/NN ,/, no/DT employers/NNS in/IN New/NNP York/NNP would/MD take/VB me/NN seriously/RB
+In/IN graduate/JJ school/NN ,/, received/VBD full-time/JJ offers/NNS from/CC both/PDT Yahoo/NNP and/CC Google/NNP
+Interviewed/VBN and/CC rejected/VBN by/PDT two/CD local/JJ startups/NNS in/IN medical/JJ and/CC educational/JJ spaces/NNS
+For/CC frontend/JJ developer/NN jobs/NNS ,/, I/PRP am/VBP usually/RB told/VBN I/PRP don't/MD have/VB enough/JJ design/NN skills/NNS
+I/PRP was/VBD rejected/VBN from/CC 10/CD unpaid/JJ internships/NNS
+I/PRP applied/VBD for/CC an/DT engineering/JJ job/NN at/IN Yahoo/NNP and/CC didn’t/MD get/VB it/NN

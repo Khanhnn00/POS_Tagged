@@ -1,282 +1,282 @@
-I,I + PRP
-was,be + VBD
-rejected,reject + VBN
-from,from + CC
-10,10 + JJ
-unpaid,unpay + VBN
-internships,internship + NNS
-//,
-I,I + PRP
-applied,apply + VBD
-for,for + CC
-an,an + DT
-engineering,engineer + VBG
-job,job + NN
-at,at + IN
-yahoo,yahoo + NNP
-and,and + CC
-didn't,do + VBD
-get,get + VB
-it,
-//,
-now,now + RB
-I,I + PRP
-am,be + VBP
-senior,senior + JJ
-engineer,engineer + NN
-at,at + IN
-twitter,twitter + NNP
-//,
-I,I + PRP
-had,have + VBZ
-an,an + DT
-interview,interview + NN
-with,with + JJ
-scribd,scribd + NNP
-who,who + WP
-I,I + PRP
-really,really + RB
-liked,like + VBZ
-at,at + IN
-the,the + DT
-time,time + NN
-//,
-you,you + PRP
-cannot,can + MD
-invert,invert + VB
-a,a + DT
-binary,binary + JJ
-tree,tree + NN
-on,on + IN
-a,a + DT
-whiteboard,whiteboard + NN
-//,
-I,I + PRP
-interviewed,interview + VBZ
-at,at + IN
-mozilla,mozilla + NNP
-in,in + IN
-2008,2008 + NN
-//,
-because,
-I,I + PRP
-didn't,do + VBD
-have,have + VB
-an,an + DT
-undergraduate,undergraduate + JJ
-degree,degree + NN
-//,
-when,when + WRB
-I,I + PRP
-graduated,graduate + VBD
-from,from + CC
-a,a + DT
-less,little + JJR
-than,
-desirable,desirable + JJ
-college,college + NNP
-no,no + JJ
-employers,employer + NNS
-in,in + IN
-newyork,newyork + NNP
-would,will + VBD
-take,take + VB
-me,me + 
-seriously,seriously + RB
-//,
-in,in + IN
-grad,grad + JJ
-school,school + NN
-received,receive + VBD
-full-time,full-time + JJ
-offers,offer + NNS
-from,from + CC
-both,both + RB
-yahoo,yahoo + NNP
-and,and + CC
-google,google + NNP
-//,
-interviewed,interview + VBN
-and,and + CC
-rejected,reject + VBN
-by,by + IN
-two,two + JJ
-local,local + JJ
-startups,startup + NNS
-in,in + IN
-medical,medical + JJ
-and,and + CC
-educational,educational + JJ
-spaces,space + NNS
-//,
-for,for + CC
-frontend,frontend + JJ
-developer,developer + NN
-jobs,job + NNS
-I,I + PRP
-am,be + VBP
-usually,usually + RB
-told,tell + VBN
-I,I + PRP
-don't,do + VB
-have,have + VB
-enough,enough + JJ
-design,design + NN
-skills,skills + NNS
-//,
-I,I + PRP
-wanted,want + VBD
-to,to + TO
-be,be + VB
-a,a + DT
-professional,professional + JJ
-football,football + NN
-player,player + NN
-but,but + CC
-the,the + DT
-newyork jets,NNP
-didn't,do + VBD
-want,want + VB
-me,
-because,
-I,I + PRP
-couldn't,can + VBD
-run,run + VB
-a,a + DT
-sub-4.3,JJ
-second,second + NN
-40,JJ
-yard,yard + NN
-dash,dash + NN
-//,
-never,
-let,let + VB
-anyone,
-tell,tell + VB
-you,you + PRP
-that,
-you,you + PRP
-are,be + VBP
-not,
-worthy,worthy + JJ
-//,
-they,they + PRP
-asked,ask + VBD
-me,
-a,a + DT
-question,question + NN
-that,
-took,take + VBD
-me,
-a,a + DT
-bit,bit + NN
-of,of + IN
-time,time + NN
-to,to + TO
-answer,answer + VB
-and,and + CC
-the,the + DT
-interviewer,interviewer + NN
-cut,cut + VB
-me,
-off,off + RB
-in,in + IN
-the,the + DT
-middle.,middle + NN
-//,
-i,I + PRP
-was,be + VBD
-rejected,reject + VBN
-from,from + CC
-countless,countless + JJ
-internships,internship + NNS
-and,and + CC
-junior,junior + JJ
-positions,position + NNS
-at,at + IN
-agencies,agency + NNS
-//,
-one,one + JJ
-month,month + NN
-later,later + RB
-i,I + PRP
-got,get + VBD
-an,an + DT
-offer,offer + NN 
-from,from + CC
-slack,slack + NNP
-//,
-set,set + VB
-up,up + RB
-an,an + DT
-organization,organization + NN
-to,to + TO
-improve,improve + VB
-the,the + DT
-way,way + NN
-your,your + PRP$
-team,team + NN
-works,work + VBZ
-together,together + RB
-//,
-the,the + DT
-feed,feed + NN
-shows,show + VBZ
-you,you + PRP
-events,event + NNS
-from,from + CC
-people,people + NN
-you,you + PRP
-follow,follow + VB
-and,and + CC
-repositories,repository + NNS
-you,you + PRP
-watch,watch + VB
-//,
-accommodation,accommodation + NN
-letters,letter + NNS
-are,be + VBP
-issued,issue + VBN
-for,for + CC
-the,the + DT
-entire,entire + JJ
-academic,academic + JJ
-year,year + NN
-//,
-voting,vote + VBG
-is,be + VBZ
-a,a + DT
-general,general + JJ
-technique,technique + NN
-where,
-we,we + PRP
-let,let + VB
-the,the + DT
-features,feature + NNS
-vote,vote + VB 
-for,for + CC
-all,all + JJ
-models,model + NNS
-that,
-are,are + VBP
-compatible,compatible + JJ
-with,with + IN
-it,it + NN
-//,
-ransac,NNP
-divides,devide + VBZ
-data,data + NN
-into,into + IN
-inliers,inliers + NNS
-and,and + CC
-outliers,outliers + NNS
-and,and + CC
-yields,yield + VBZ
-estimate,estimate + JJ
-computed,comput
-from,
-minimal,
-set,
-of,
-inliers,
-//,
+I,I + PRP,now,now + RB,you,you + PRP,when,when + WRB
+was,be + VBD,I,I + PRP,cannot,can + MD,I,I + PRP
+rejected,reject + VBN,am,be + VBP,invert,invert + VB,graduated,graduate + VBD
+from,from + CC,senior,senior + JJ,a,a + DT,from,from + CC
+10,10 + CD,engineer,engineer + NN,binary,binary + JJ,a,a + DT
+unpaid,unpay + VBN,at,at + IN,tree,tree + NN,less,little + JJR
+internships,internship + NNS,twitter,twitter + NNP,on,on + IN,than,than + RB
+//,//,//,//,a,a + DT,desirable,desirable + JJ
+I,I + PRP,I ,I + PRP,whiteboard,whiteboard + NN,college,college + NNP
+applied,apply + VBD,have,have + VBZ,//,//,no,no + JJ
+for,for + CC,an,an + DT,I,I + PRP,employers,employer + NNS
+an,an + DT,interview,interview + NN,interviewed,interview + VBZ,in,in + IN
+engineering,engineer + VBG,with,with + JJ,at,at + IN,newyork,newyork + NNP
+job,job + NN,scribd,scribd + NNP,mozilla,mozilla + NNP,would,will + VBD
+at,at + IN,who,who + WP,in,in + IN,take,take + VB
+yahoo,yahoo + NNP,I,I + PRP,2008,2008 + NN,me,me + NN
+and,and + CC,really,really + RB,//,//,seriously,seriously + RB
+didn't,do + VBD,liked,like + VBZ,because,because + CC,,
+get,get + VB,at,at + IN,I,I + PRP,,
+it,it + NN,the,the + DT,didn't,do + VBD,,
+//,,time,time + NN,have,have + VB,,
+,,,,an,an + DT,,
+,,,,undergraduate,undergraduate + JJ,,
+,,,,degree,degree + NN,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+//,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+//,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+//,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+//,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+//,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+//,,,,,,,
+in,in + IN,,,,,,
+grad,grad + JJ,,,,,,
+school,school + NN,,,,,,
+received,receive + VBD,,,,,,
+full-time,full-time + JJ,,,,,,
+offers,offer + NNS,,,,,,
+from,from + CC,,,,,,
+both,both + RB,,,,,,
+yahoo,yahoo + NNP,,,,,,
+and,and + CC,,,,,,
+google,google + NNP,,,,,,
+//,,,,,,,
+interviewed,interview + VBN,,,,,,
+and,and + CC,,,,,,
+rejected,reject + VBN,,,,,,
+by,by + IN,,,,,,
+two,two + JJ,,,,,,
+local,local + JJ,,,,,,
+startups,startup + NNS,,,,,,
+in,in + IN,,,,,,
+medical,medical + JJ,,,,,,
+and,and + CC,,,,,,
+educational,educational + JJ,,,,,,
+spaces,space + NNS,,,,,,
+//,,,,,,,
+for,for + CC,,,,,,
+frontend,frontend + JJ,,,,,,
+developer,developer + NN,,,,,,
+jobs,job + NNS,,,,,,
+I,I + PRP,,,,,,
+am,be + VBP,,,,,,
+usually,usually + RB,,,,,,
+told,tell + VBN,,,,,,
+I,I + PRP,,,,,,
+don't,do + VB,,,,,,
+have,have + VB,,,,,,
+enough,enough + JJ,,,,,,
+design,design + NN,,,,,,
+skills,skills + NNS,,,,,,
+//,,,,,,,
+I,I + PRP,,,,,,
+wanted,want + VBD,,,,,,
+to,to + TO,,,,,,
+be,be + VB,,,,,,
+a,a + DT,,,,,,
+professional,professional + JJ,,,,,,
+football,football + NN,,,,,,
+player,player + NN,,,,,,
+but,but + CC,,,,,,
+the,the + DT,,,,,,
+newyork jets,NNP,,,,,,
+didn't,do + VBD,,,,,,
+want,want + VB,,,,,,
+me,,,,,,,
+because,,,,,,,
+I,I + PRP,,,,,,
+couldn't,can + VBD,,,,,,
+run,run + VB,,,,,,
+a,a + DT,,,,,,
+sub-4.3,JJ,,,,,,
+second,second + NN,,,,,,
+40,JJ,,,,,,
+yard,yard + NN,,,,,,
+dash,dash + NN,,,,,,
+//,,,,,,,
+never,,,,,,,
+let,let + VB,,,,,,
+anyone,,,,,,,
+tell,tell + VB,,,,,,
+you,you + PRP,,,,,,
+that,,,,,,,
+you,you + PRP,,,,,,
+are,be + VBP,,,,,,
+not,,,,,,,
+worthy,worthy + JJ,,,,,,
+//,,,,,,,
+they,they + PRP,,,,,,
+asked,ask + VBD,,,,,,
+me,,,,,,,
+a,a + DT,,,,,,
+question,question + NN,,,,,,
+that,,,,,,,
+took,take + VBD,,,,,,
+me,,,,,,,
+a,a + DT,,,,,,
+bit,bit + NN,,,,,,
+of,of + IN,,,,,,
+time,time + NN,,,,,,
+to,to + TO,,,,,,
+answer,answer + VB,,,,,,
+and,and + CC,,,,,,
+the,the + DT,,,,,,
+interviewer,interviewer + NN,,,,,,
+cut,cut + VB,,,,,,
+me,,,,,,,
+off,off + RB,,,,,,
+in,in + IN,,,,,,
+the,the + DT,,,,,,
+middle.,middle + NN,,,,,,
+//,,,,,,,
+i,I + PRP,,,,,,
+was,be + VBD,,,,,,
+rejected,reject + VBN,,,,,,
+from,from + CC,,,,,,
+countless,countless + JJ,,,,,,
+internships,internship + NNS,,,,,,
+and,and + CC,,,,,,
+junior,junior + JJ,,,,,,
+positions,position + NNS,,,,,,
+at,at + IN,,,,,,
+agencies,agency + NNS,,,,,,
+//,,,,,,,
+one,one + JJ,,,,,,
+month,month + NN,,,,,,
+later,later + RB,,,,,,
+i,I + PRP,,,,,,
+got,get + VBD,,,,,,
+an,an + DT,,,,,,
+offer,offer + NN ,,,,,,
+from,from + CC,,,,,,
+slack,slack + NNP,,,,,,
+//,,,,,,,
+set,set + VB,,,,,,
+up,up + RB,,,,,,
+an,an + DT,,,,,,
+organization,organization + NN,,,,,,
+to,to + TO,,,,,,
+improve,improve + VB,,,,,,
+the,the + DT,,,,,,
+way,way + NN,,,,,,
+your,your + PRP$,,,,,,
+team,team + NN,,,,,,
+works,work + VBZ,,,,,,
+together,together + RB,,,,,,
+//,,,,,,,
+the,the + DT,,,,,,
+feed,feed + NN,,,,,,
+shows,show + VBZ,,,,,,
+you,you + PRP,,,,,,
+events,event + NNS,,,,,,
+from,from + CC,,,,,,
+people,people + NN,,,,,,
+you,you + PRP,,,,,,
+follow,follow + VB,,,,,,
+and,and + CC,,,,,,
+repositories,repository + NNS,,,,,,
+you,you + PRP,,,,,,
+watch,watch + VB,,,,,,
+//,,,,,,,
+accommodation,accommodation + NN,,,,,,
+letters,letter + NNS,,,,,,
+are,be + VBP,,,,,,
+issued,issue + VBN,,,,,,
+for,for + CC,,,,,,
+the,the + DT,,,,,,
+entire,entire + JJ,,,,,,
+academic,academic + JJ,,,,,,
+year,year + NN,,,,,,
+//,,,,,,,
+voting,vote + VBG,,,,,,
+is,be + VBZ,,,,,,
+a,a + DT,,,,,,
+general,general + JJ,,,,,,
+technique,technique + NN,,,,,,
+where,,,,,,,
+we,we + PRP,,,,,,
+let,let + VB,,,,,,
+the,the + DT,,,,,,
+features,feature + NNS,,,,,,
+vote,vote + VB ,,,,,,
+for,for + CC,,,,,,
+all,all + JJ,,,,,,
+models,model + NNS,,,,,,
+that,,,,,,,
+are,are + VBP,,,,,,
+compatible,compatible + JJ,,,,,,
+with,with + IN,,,,,,
+it,it + NN,,,,,,
+//,,,,,,,
+ransac,NNP,,,,,,
+divides,devide + VBZ,,,,,,
+data,data + NN,,,,,,
+into,into + IN,,,,,,
+inliers,inliers + NNS,,,,,,
+and,and + CC,,,,,,
+outliers,outliers + NNS,,,,,,
+and,and + CC,,,,,,
+yields,yield + VBZ,,,,,,
+estimate,estimate + JJ,,,,,,
+computed,comput,,,,,,
+from,,,,,,,
+minimal,,,,,,,
+set,,,,,,,
+of,,,,,,,
+inliers,,,,,,,
+//,,,,,,,

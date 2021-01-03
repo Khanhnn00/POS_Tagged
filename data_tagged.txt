@@ -1,14 +1,8 @@
-I/PRP was/VBD rejected/VBN from/CC 10/CD unpaid/JJ internships/NNS
-I/PRP applied/VBD for/CC an/DT engineering/JJ job/NN at/IN Yahoo/NNP and/CC didn’t/MD get/VB it/NN
 Now/RB I/PRP am/VBP senior/JJ engineer/NN at/IN Twitter/NNP
 I/PRP had/VBD an/DT interview/NN with/IN Scribd/NNP ,/, who/WP I/PRP really/RB liked/VBD at/IN the/DT time/NN
 you/PRP can’t/MD invert/VB a/DT binary/JJ tree/NN on/IN a/DT whiteboard/NN
 I/PRP interviewed/VBD at/IN Mozilla/NNP in/IN 2008/NN
 because/CC I/PRP didn't/MD have/VB an/DT undergraduate/JJ degree/NN
-When/WRB I/PRP graduated/VBD from/CC a/DT less/JJR than/IN desirable/JJ college/NN ,/, no/DT employers/NNS in/IN New/NNP York/NNP would/MD take/VB me/NN seriously/RB
-In/IN graduate/JJ school/NN ,/, received/VBD full-time/JJ offers/NNS from/CC both/PDT Yahoo/NNP and/CC Google/NNP
-Interviewed/VBN and/CC rejected/VBN by/PDT two/CD local/JJ startups/NNS in/IN medical/JJ and/CC educational/JJ spaces/NNS
-For/CC frontend/JJ developer/NN jobs/NNS ,/, I/PRP am/VBP usually/RB told/VBN I/PRP don't/MD have/VB enough/JJ design/NN skills/NNS
 I/PRP wanted/VBD to/TO be/VB a/DT professional/JJ football/NN player/NN but/CC the/DT New/NN York/NN Jets/NN didn't/MD want/VB me/NN because/CC I/PRP couldn't/MD run/VB a/DT sub-4.3/JJ second/NN 40/JJ yard/NN dash/NN
 Never/RB let/VB anyone/NN tell/VB you/PRP that/WDT you/PRP are/VBP not/RB worthy/JJ
 They/PRP asked/VBD me/NN a/DT question/NN that/WDT took/VBD me/NN a/DT bit/NN of/IN time/NN to/TO answer/NN ,/, and/CC the/DT interviewer/NN cut/VB me/NN off/RP in/IN the/DT middle/NN
@@ -19,3 +13,51 @@ The/DT feed/NN shows/VBZ you/PRP events/NNS from/IN people/NNS you/PRP follow/VB
 Accommodation/NN letters/NN are/VBP issued/VBN for/CC the/DT entire/RB academic/JJ year/NN
 Voting/VBG is/VBZ a/DT general/JJ technique/NN where/WRB we/PRP let/VB the/DT features/NNS vote/VB for/CC all/PDT models/NNS that/WDT are/VBP compatible/JJ with/IN it/NN
 RANSAC/NNP divides/VBZ data/NN into/IN inliers/NNS and/CC outliers/NS and/CC yields/VBZ estimate/JJ computed/VBN from/CC minimal/JJ set/NN of/IN inliers/NNS
+BYU/NNP may/MD be/VBP one/CD of/IN only/DT campuses/NNS in/IN the/DT nation/NN where/RB you/PRP have/VB genuine/JJ diversity/NN ./.
+You/PRP can/MD hear/VB Mitt/NNP Romney/NNP and/CC Harry/NNP Reid/NNP and/CC no/DT one/ is/VBZ throwing/VBG pies/NNS and/CC protesting/VBG that/WDT the/DT speaker/NN doesn't/MD meet/VB their/PRP$ ideological/JJ litmus/NN test/NN ./.
+It/PRP depends/VBZ on/IN who/WP you/PRP are/VBP and/CC what/WP you/PRP want/VB from/RP your/PRP$ university/NN experience/NN ./.
+I/PRP enjoyed/VBD my/PRP$ time/NN there/RP
+If/IN you/PRP think/VB of/IN college/NN as/IN an/DT opportunity/NN for/CC drunken/JJ orgies/NNS ,/, you/PRP are/VBP going/VBG to/TO hate/VB BYU/NNP ./.
+If/IN you/PRP like/VB the/DT idea/NN of/IN attending/VBG a/DT school/NN where/WP values/NNS and/CC ideals/NNS and/CC commitment/NN to/TO clean/JJ living/NN is/VBZ the/DT norm/NN ,/, then/RB you/PRP might/MD enjoy/VB BYU/NNP
+BYU/NNP has/VBZ very/RB little/JJ in/IN the/DT way/NN of/IN political/JJ or/CC racial/JJ diversity/NN
+If/IN you/PRP are/VBP LDS/NNP ,/, or/CC come/VB from/RP a/DT conservative/JJ background/NN ,/, chances/NNS are/VBP you/PRP will/MD have/VB a/DT very/RB positive/JJ experience/NN at/IN BYU/NNP
+It/PRP has/VBZ the/DT best/RBS library/NN I/PRP have/VBP ever/RB visited/VBG and/CC it/PRP is/VBZ true/JJ that/WDT the/DT campus/NN is/VBZ very/RB beautiful/JJ
+The/DT professors/NNS are/VBP excellent/JJ
+Universities/NNS determine/VB their/PRP$ overall/JJ operating/JJ costs/NNS including/VBG professor/NN salaries/NNS ,/, campus/NN maintenance/NN and/CC cost/NN of/IN supplies/NNS ./.
+This/PDT makes/VBZ tuition/NN costs/NNP for/CC students/NNS incredibly/RB low/JJ ,/, and/CC Norris/NNP said/VBD it/PRP also/RB encourages/VBZ students/NNS to/TO apply/VB to/TO the/DT university/NN ./.
+Because/CC tuition/NN is/VBZ so/RB affordable/JJ ,/, some/DT students/NNS are/VBP able/JJ to/TO work/VB summer/NN jobs/NNS to/TO help/VB pay/VB for/CC the/DT next/IN year’s/PRP$ tuition/NN ./.
+BYU/NNP tuition/NN is/VBZ very/RB reasonable/JJ and/CC cheaper/JJR than/IN any/DT other/JJ place/NN I/PRP was/VBD considering/VBG ./.
+They/PRP also/RB appreciate/VB students/NNS having/VBG experience/NN beyond/IN just/DT academics/NNS ./.
+People/NNS who/WP are/VBP caught/VBN breaking/VBG the/DT honor/NN code/NN are/VBP dismissed/VBN ./.
+I/PRP was/VBD happy/JJ to/TO embrace/VB the/DT safety/NN I/PRP felt/VBD at/IN the/DT Y/NNP ./.
+BYU/NNP may/DT be/VBP one/CD of/IN only/DT campuses/NNS in/IN the/DT nation/NN where/RB you/PRP have/VB genuine/JJ diversity/NN ./.
+You/PRP can/MD hear/VB Mitt/NNP Romney/NNP and/CC Harry/NNP Reid/NNP and/CC no/DT one/ is/VBZ throwing/VBG pies/NNS and/CC protesting/VBG that/WDT the/DT speaker/NN doesn't/MD meet/VB their/PRP$ ideological/JJ litmus/NN test/NN ./.
+It/PRP depends/VBZ on/IN who/WP you/PRP are/VBP and/CC what/WP you/PRP want/VB from/RP your/PRP$ university/NN experience/NN ./.
+If/IN you/PRP like/VB the/DT idea/NN of/IN attending/VBG a/DT school/NN where/WP values/NNS and/CC ideals/NNS and/CC commitment/NN to/TO clean/JJ living/NN is/VBZ the/DT norm/NN, then/RB you/PRP might/MD enjoy/VB BYU/NNP
+BYU/NNP has/VBZ very/RB little/JJ in/IN the/DT way/NN of/IN political/JJ or/CC racial/JJ diversity/NN
+If/IN you/PRP are/VBP LDS/NNP ,/, or/CC come/VB from/RP a/DT conservative/JJ background/NN, chances/NNS are/VBP you/PRP will/MD have/VB a/DT very/RB positive/JJ experience/NN at/IN BYU/NNP
+It/PRP has/VBZ the/DT best/RBS library/NN I/PRP have/VBP ever/RB visited/VBG and/CC it/PRP is/VBZ true/JJ that/WDT the/DT campus/NN is/VBZ very/RB beautiful/JJ
+The/DT professors/NNS are/VBP excellent/JJ
+Universities/NNS determine/VB their/PRP$ overall/JJ operating/JJ costs/NNS including/VBG professor/NN salaries/NNS ,/, campus/NN maintenance/NN and/CC cost/NN of/IN supplies/NNS ./.
+This/PDT makes/VBZ tuition/NN costs/NNP for/CC students/NNS incredibly/RB low/JJ ,/, and/CC Norris/NNP said/VBD it/PRP also/RB encourages/VBZ students/NNS to/TO apply/VB to/TO the/DT university/NN ./.
+Because/CC tuition/NN is/VBZ so/RB affordable/JJ ,/, some/DT students/NNS are/VBP able/JJ to/TO work/VB summer/NN jobs/NNS to/TO help/VB pay/VB for/CC the/DT next/IN year’s/PRP$ tuition/NN ./.
+BYU/NNP tuition/NN is/VBZ very/RB reasonable/JJ and/CC cheaper/JJR than/IN any/DT other/JJ place/NN I/PRP was/VBD considering/VBG
+BYU/NNP still/RB manages/VBZ to/TO operate/VB a/DT professional/JJ and/CC reputable/JJ university/NN ./.
+You/PRP are/VBP often/RB judged/VBN quickly/RB and/CC harshly/RB in/IN this/PDT world/NN ,/, always/RB insure/VB that/DT you/PRP put/VB the/DT best/JJS possible/JJ words/NNS into/IN print/NN ./.
+I/PRP would/MD suggest/VB two/CD approaches/NNS
+They/PRP also/RB appreciate/VB students/NNS having/VBG experience/NN beyond/IN just/DT academics/NNS ./.
+People/NNS who/WP are/VBP caught/VBN breaking/VBG the/DT honor/NN code/NN are/VBP dismissed/VBN
+I/PRP was/VBD happy/JJ to/TO embrace/VB the/DT safety/NN I/PRP felt/VBD at/IN the/DT Y/NNP
+The/DT campus/NN has/VBZ numerous/JJ organizations/NNS staffed/VBD by/IN and/CC focused/VBD on/IN international/JJ students/NNS
+Some/DT jobs/NNS are/VBP available/JJ and/CC internships/NNS are/VBP available/JJ through/IN broad/JJ avenues/NNS
+Residing/VBG within/IN the/DT university/NN campus/NN can/MD also/RB help/VB you/PRP navigate/VB easily/RB
+If/IN you/PRP like/VB football/NN ,/, we/PRP have/VB a/DT good/JJ team/NN ,/, a/DT nice/JJ stadium/NN ,/, and/CC the/DT tailgating/VBG is/VBZ always/RB fun/JJ ./.
+I/PRP have/VBP never/RB felt/VBD in/IN danger/NN and/CC people/NNS are/VBP very/RB friendly/JJ here/RB
+I/PRP have/VBP lived/VBD on/IN campus/NN in/IN a/DT large/JJ cluster/NN at/IN Lassonde/NNP Studios/NNP ./.
+I/PRP haven’t/VBP had/VBD a/DT problem/NN getting/VBG interviews/NNS despite/IN my/PRP$ lack/NN of/IN internships/NNS
+Microsoft/NNP and/CC Amazon/NNP are/VBP regular/JJ attendees/NNS at/IN our/PRP$ STEM/NNP career/NN fair/NN ,/, and/CC Facebook/NNP has/VBZ also/RB attended/VBD ./.
+He/PRP has/VBZ entered/VBD in/IN a/DT restaurant/NN ./.
+The/DT baby/NN has/VBZ broken/VBN the/DT glass/NN ./.
+I/PRP have/VB put/VB the/DT money/NN on/IN the/DT table/NN ./.
+My/PRP$ sister/NN has/VBZ already/RB made/VBD a/DT big/JJ cake/NN
+You/PRP have/VB grown/VBD since/RB the/DT last/JJ time/NN I/PRP saw/VBD you/PRP
