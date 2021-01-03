@@ -5,6 +5,8 @@ from nltk.corpus import treebank
 from nltk.probability import LaplaceProbDist
 from nltk.tag.hmm import HiddenMarkovModelTrainer
 
+from sklearn.metrics import accuracy_score
+
 global words_count
 global tags_count
 global transition
@@ -33,6 +35,36 @@ prob = {}
 wt_prob = {}
 START_STATE = 'uwuowo'
 
+import pandas as pd
+from tabulate import tabulate
+
+def pretty_print_probs(distribs):
+    
+    rows = set()
+    cols = set()
+    for val in distribs.keys():
+        # temp = val.split("|")
+        rows.add(val[0])
+        cols.add(val[1])
+        
+    rows = list(rows)
+    cols = list(cols)
+
+    df = []
+    for i in range(len(rows)):
+        temp = []
+        for j in range(len(cols)):
+
+            temp.append(distribs[(rows[i], cols[j])])
+            
+        df.append(temp)
+        
+    I = pd.Index(rows, name="rows")
+    C = pd.Index(cols, name="cols")
+    df = pd.DataFrame(data=df,index=I, columns=C)
+    
+    print(tabulate(df, headers='keys', tablefmt='psql'))
+
 def prepareLib(train):
     tagged = []
     with open(train, 'r', encoding='utf-8') as f:
@@ -49,13 +81,6 @@ def prepareLib(train):
             tagged.append(tmp)
     f.close()
     return tagged
-
-def writeOutput(result, file):
-    with open(file, 'a', encoding='utf-8') as f:
-        for string in result:
-            f.write(string)
-            f.write('\n')
-    f.close()
 
 def get_words(path):
     with open(path, 'r', encoding='utf-8') as f:
@@ -153,6 +178,7 @@ def transitionSmoothing():
         for tag2 in tags:
             if (tag1, tag2) not in prob:
                 prob[(tag1, tag2)] = (1) / (a[tag1] + len(tags))
+    # pretty_print_probs(prob)
     return prob
 
 def calculateWordTagProbability():
@@ -161,7 +187,7 @@ def calculateWordTagProbability():
             count = 0
             if (word, tag) in word_tag:
                 count = word_tag[(word, tag)]
-            tmp = count+1/(tags_count[tag] + len(words))
+            tmp = (count+1)/(tags_count[tag] + len(words))
             wt_prob[(word, tag)] = tmp
     return wt_prob
 
@@ -229,22 +255,92 @@ def viterbi(sentence, tags, prob, wt_prob, tag_count_emis, words):
                 result.reverse()
                 return " ".join(result)
 
+def writeOutput(init, result, accs, lib_res, lib_acc, file):
+    # count = -1
+    with open(file, 'a', encoding='utf-8') as f:
+        for i in range(len(result)):
+            f.write('init: {}'.format(init[i].lower()))
+            f.write('mine: {}'.format(result[i]))
+            f.write('\n')
+            f.write(str(accs[i]))
+            f.write('\n')
+            f.write('lib: {}'.format(lib_res[i]))
+            f.write('\n')
+            f.write(str(lib_acc[i]))
+            f.write('\n')
+            f.write('\n')
+    f.close()
+    print(str(sum(accs)/len(accs)))
+    print(str(sum(lib_acc)/len(lib_acc)))
+
+
 def runWithLib():
     tagged = prepareLib(TRAIN)
+    print(tagged)
     trainer = HiddenMarkovModelTrainer()
     tagger = trainer.train_supervised(tagged, estimator=LaplaceProbDist)
     result = []
+    accs = []
     with open('./input.txt', 'r', encoding='utf-8') as f:
         for line in f:
+            line, gt = splitAndReconstruct(line)
             pos = tagger.tag(line.split())
             string = ""
+            pred = []
             for pair in pos:
                 string = string+pair[0] + '/' + pair[1] + " "
+                pred.append(pair[1])
             result.append(string)
+            accs.append(accuracy_score(gt, pred))
             # print('\n')
     f.close()
-    writeOutput(result, OUTPUT)
+    # writeOutput(result, accs, OUTPUT)
+    return result, accs
             
+def splitAndReconstruct(sentence):
+    f = ""
+    tags = []
+    words_and_tags = sentence.split()
+    for pair in words_and_tags:
+        try:
+            word, tag = pair.split('/')
+        except ValueError:
+            print(sentence)
+        if f != "":
+            f = f+' '
+        f = f+word.lower()
+        tags.append(tag.lower())
+    return f, tags
+
+def posTagging(line):
+    # print(line.get())
+    # sentence = line.get()
+    get_words('./data_tagged.txt')
+    # print(transition.items())
+    prob = transitionSmoothing()
+    wt_prob = calculateWordTagProbability()
+    tag_count_emis = {}
+    for probb in wt_prob.items():
+        key_tag = probb[0]
+        # print(key_tag)
+        val = key_tag[-1]
+        if val in tag_count_emis:
+            tag_count_emis[val] += 1
+        else:
+            tag_count_emis[val] = 1
+    sent = line.get().lower()
+    # print(sent)
+    path = viterbi(sent, tags, prob, wt_prob, tag_count_emis, words)
+    tmp = sent.split()
+    ptmp = path.split()
+    string = ""
+    for i in range(len(tmp)):
+        if string != "":
+            string = string + ' '
+        string += tmp[i] + '/' + ptmp[i]
+    print(string)
+    return string
+    
 
 def main():
     get_words('./data_tagged.txt')
@@ -260,20 +356,46 @@ def main():
             tag_count_emis[val] += 1
         else:
             tag_count_emis[val] = 1
-    result = []
-    with open('./input.txt', 'r', encoding='utf-8') as f:
-        for line in f:
-            path = viterbi(line, tags, prob, wt_prob, tag_count_emis, words)
-            tmp = line.split()
-            ptmp = path.split()
-            string = ""
-            for i in range(len(tmp)):
-                string += tmp[i] + '/' + ptmp[i] + ' '
-            result.append(string)
-    f.close()
-    writeOutput(result, OUTPUT)
-    print('\n')
-    runWithLib()
+    
+    print('1. demo with test data (label available)')
+    print('2. demo with a random single sentence')
+    k = int(input())
+    if k == 1:
+        init = []
+        result = []
+        accs = []
+        with open('./input.txt', 'r', encoding='utf-8') as f:
+            for line in f:
+                init.append(line)
+                line, gt = splitAndReconstruct(line)
+                path = viterbi(line, tags, prob, wt_prob, tag_count_emis, words)
+                tmp = line.split()
+                ptmp = path.split()
+                string = ""
+                for i in range(len(tmp)):
+                    string += tmp[i] + '/' + ptmp[i] + ' '
+                result.append(string)
+                acc = accuracy_score(gt, ptmp)
+                # print('gt: {}'.format(gt))
+                # print('pred: {}'.format(ptmp))
+                accs.append(acc)
+        f.close()
+        lib_res, lib_acc = runWithLib()
+        writeOutput(init, result, accs, lib_res, lib_acc, OUTPUT)
+    else:
+        sent = input()
+        sent = sent.lower()
+        path = viterbi(sent, tags, prob, wt_prob, tag_count_emis, words)
+        tmp = sent.split()
+        ptmp = path.split()
+        string = ""
+        for i in range(len(tmp)):
+            if string != "":
+                string = string + ' '
+            string += tmp[i] + '/' + ptmp[i]
+        print(string)
+    # print('\n')
+    
         
 if __name__ == "__main__":
     main()
