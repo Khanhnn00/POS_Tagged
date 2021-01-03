@@ -13,11 +13,11 @@ The/DT feed/NN shows/VBZ you/PRP events/NNS from/IN people/NNS you/PRP follow/VB
 Accommodation/NN letters/NN are/VBP issued/VBN for/CC the/DT entire/RB academic/JJ year/NN
 Voting/VBG is/VBZ a/DT general/JJ technique/NN where/WRB we/PRP let/VB the/DT features/NNS vote/VB for/CC all/PDT models/NNS that/WDT are/VBP compatible/JJ with/IN it/NN
 RANSAC/NNP divides/VBZ data/NN into/IN inliers/NNS and/CC outliers/NS and/CC yields/VBZ estimate/JJ computed/VBN from/CC minimal/JJ set/NN of/IN inliers/NNS
-BYU/NNP may/MD be/VBP one/CD of/IN only/DT campuses/NNS in/IN the/DT nation/NN where/RB you/PRP have/VB genuine/JJ diversity/NN ./.
+BYU/NNP may/MD be/VBP one/CD of/IN only/DT campuses/NNS in/IN the/DT nation/NN where/WP you/PRP have/VB genuine/JJ diversity/NN ./.
 You/PRP can/MD hear/VB Mitt/NNP Romney/NNP and/CC Harry/NNP Reid/NNP and/CC no/DT one/ is/VBZ throwing/VBG pies/NNS and/CC protesting/VBG that/WDT the/DT speaker/NN doesn't/MD meet/VB their/PRP$ ideological/JJ litmus/NN test/NN ./.
 It/PRP depends/VBZ on/IN who/WP you/PRP are/VBP and/CC what/WP you/PRP want/VB from/RP your/PRP$ university/NN experience/NN ./.
-I/PRP enjoyed/VBD my/PRP$ time/NN there/RP
-If/IN you/PRP think/VB of/IN college/NN as/IN an/DT opportunity/NN for/CC drunken/JJ orgies/NNS ,/, you/PRP are/VBP going/VBG to/TO hate/VB BYU/NNP ./.
+I/PRP enjoyed/VBD my/PRP$ time/NN there/RB
+If/IN you/PRP think/VB of/IN college/NN as/RB an/DT opportunity/NN for/CC drunken/JJ orgies/NNS ,/, you/PRP are/VBP going/VBG to/TO hate/VB BYU/NNP ./.
 If/IN you/PRP like/VB the/DT idea/NN of/IN attending/VBG a/DT school/NN where/WP values/NNS and/CC ideals/NNS and/CC commitment/NN to/TO clean/JJ living/NN is/VBZ the/DT norm/NN ,/, then/RB you/PRP might/MD enjoy/VB BYU/NNP
 BYU/NNP has/VBZ very/RB little/JJ in/IN the/DT way/NN of/IN political/JJ or/CC racial/JJ diversity/NN
 If/IN you/PRP are/VBP LDS/NNP ,/, or/CC come/VB from/RP a/DT conservative/JJ background/NN ,/, chances/NNS are/VBP you/PRP will/MD have/VB a/DT very/RB positive/JJ experience/NN at/IN BYU/NNP
