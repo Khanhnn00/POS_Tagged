@@ -52,12 +52,12 @@ The/DT campus/NN has/VBZ numerous/JJ organizations/NNS staffed/VBD by/IN and/CC 
 Some/DT jobs/NNS are/VBP available/JJ and/CC internships/NNS are/VBP available/JJ through/IN broad/JJ avenues/NNS
 Residing/VBG within/IN the/DT university/NN campus/NN can/MD also/RB help/VB you/PRP navigate/VB easily/RB
 If/IN you/PRP like/VB football/NN ,/, we/PRP have/VB a/DT good/JJ team/NN ,/, a/DT nice/JJ stadium/NN ,/, and/CC the/DT tailgating/VBG is/VBZ always/RB fun/JJ ./.
-I/PRP have/VBP never/RB felt/VBD in/IN danger/NN and/CC people/NNS are/VBP very/RB friendly/JJ here/RB
-I/PRP have/VBP lived/VBD on/IN campus/NN in/IN a/DT large/JJ cluster/NN at/IN Lassonde/NNP Studios/NNP ./.
-I/PRP haven’t/VBP had/VBD a/DT problem/NN getting/VBG interviews/NNS despite/IN my/PRP$ lack/NN of/IN internships/NNS
-Microsoft/NNP and/CC Amazon/NNP are/VBP regular/JJ attendees/NNS at/IN our/PRP$ STEM/NNP career/NN fair/NN ,/, and/CC Facebook/NNP has/VBZ also/RB attended/VBD ./.
-He/PRP has/VBZ entered/VBD in/IN a/DT restaurant/NN ./.
+I/PRP have/VBP never/RB felt/VBN in/IN danger/NN and/CC people/NNS are/VBP very/RB friendly/JJ here/RB
+I/PRP have/VBP lived/VBN on/IN campus/NN in/IN a/DT large/JJ cluster/NN at/IN Lassonde/NNP Studios/NNP ./.
+I/PRP haven’t/VBP had/VBN a/DT problem/NN getting/VBG interviews/NNS despite/IN my/PRP$ lack/NN of/IN internships/NNS
+Microsoft/NNP and/CC Amazon/NNP are/VBP regular/JJ attendees/NNS at/IN our/PRP$ STEM/NNP career/NN fair/NN ,/, and/CC Facebook/NNP has/VBZ also/RB attended/VBN ./.
+He/PRP has/VBZ entered/VBN in/IN a/DT restaurant/NN ./.
 The/DT baby/NN has/VBZ broken/VBN the/DT glass/NN ./.
 I/PRP have/VB put/VB the/DT money/NN on/IN the/DT table/NN ./.
-My/PRP$ sister/NN has/VBZ already/RB made/VBD a/DT big/JJ cake/NN
-You/PRP have/VB grown/VBD since/RB the/DT last/JJ time/NN I/PRP saw/VBD you/PRP
+My/PRP$ sister/NN has/VBZ already/RB made/VBN a/DT big/JJ cake/NN
+You/PRP have/VB grown/VBN since/RB the/DT last/JJ time/NN I/PRP saw/VBD you/PRP
